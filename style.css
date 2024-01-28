@@ -1,9 +1,13 @@
+html{
+
+}
 body {
-    font-weight: bold;
     backdrop-filter: brightness(40%);
+    font-weight: bold;
     background-image: url("hit-bollywood-movie-sequels-image-665x347.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 img {
@@ -12,8 +16,10 @@ img {
     height: 150px;
 }
 
-button.hover {
+button:hover {
     opacity: 0.8;
+    /* width: 92px; */
+    /* height:  43px; */
 }
 
 .btn {cursor: pointer;border: none;
