@@ -1,0 +1,62 @@
+body {
+    font-weight: bold;
+    backdrop-filter: brightness(40%);
+    background-image: url("hit-bollywood-movie-sequels-image-665x347.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    position: absolute;
+    width: 350px;
+    height: 150px;
+}
+
+button.hover {
+    opacity: 0.8;
+}
+
+.btn {cursor: pointer;border: none;
+    width: 90px;
+    height: 40px;
+    background-color: red;
+}
+
+input {
+    margin: 15px;
+    font-size: 25px;
+    display: inline-block;
+    border: none;
+    width: 30%;
+    height: 35px;
+    background-color: white;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    margin: 8px;
+    background-color: red;
+    width: 30%;
+    height: 35px;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h {
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
