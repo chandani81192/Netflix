@@ -1,68 +1,87 @@
-html{
-
-}
 body {
-    backdrop-filter: brightness(40%);
-    font-weight: bold;
-    background-image: url("hit-bollywood-movie-sequels-image-665x347.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
+  /* backdrop-filter: brightness(50%); */
+}
+.main-div {
+  /* backdrop-filter: brightness(50%) blur(5px); */
+  height: 100vh;
+  font-weight: bold;
+  background-image: url("hit-bollywood-movie-sequels-image-665x347.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.netflix-img {
+  height: 100vh;
+  backdrop-filter: brightness(70%) blur(5px);
 }
 
-img {
-    position: absolute;
-    width: 350px;
-    height: 150px;
+.netflix-logo {
+  /* position: absolute; */
+  width: 350px;
+  height: 150px;
 }
 
 button:hover {
-    opacity: 0.8;
-    /* width: 92px; */
-    /* height:  43px; */
+  opacity: 0.8;
+  /* width: 92px; */
+  /* height:  43px;*/
 }
 
-.btn {cursor: pointer;border: none;
-    width: 90px;
-    height: 40px;
-    background-color: red;
+.btn {
+  cursor: pointer;
+  border: none;
+  width: 90px;
+  height: 40px;
+  background-color: red;
 }
 
 input {
-    margin: 15px;
-    font-size: 25px;
-    display: inline-block;
-    border: none;
-    width: 30%;
-    height: 35px;
-    background-color: white;
+  margin: 15px;
+  font-size: 25px;
+  display: inline-block;
+  border: none;
+  width: 30%;
+  height: 35px;
+  background-color: white;
 }
 
-button{
-    cursor: pointer;
-    border: none;
-    margin: 8px;
-    background-color: red;
-    width: 30%;
-    height: 35px;
-    color: white;
+button {
+  cursor: pointer;
+  border: none;
+  margin: 8px;
+  background-color: red;
+  width: 25%;
+  height: 35px;
+  color: white;
 }
 
-h1 {
-    color: white;
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
+h2 {
+  color: white;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-    color: white;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h {
-    color: white;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
